@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #C8C4C3;
+}
+
+body{
+    background: #2C2C2E;
+    margin: 0;
+    font-family: 'Solway';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 0.1%, 1%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 3% 9%;
+}
+.left-col{
+    text-align: left;
+    margin-left: 5%;
+
+    h1{
+        
+        color: var(--primary-color);
+        letter-spacing: 0.2%;
+        font-size: 74px;
+        line-height: 2%;
+    }
+    p{
+        color: var(--primary-color);
+        opacity: 70%;
+        font-weight: 400;
+        font-size: 150%;
+        line-height: 120%;
+        padding-left: 0.5em;
+        
+    }
+    .create{
+        margin-top: 7%;
+
+        .create-account{
+            background: #699BF7;
+            color: #FBFBFB;
+            padding: 1.4% 2.9%;
+            font-size: 150%;
+            font-weight: 800;
+            border-radius: 5em;
+            cursor: pointer;
+    
+        }
+    }
+}
+.star-img{
+    display: flex;
+    width: 35%;
+    margin-top: -26%;
+    margin-left: 60%;
+}
+
+
+.navbar{
+    padding: 6% 16%;
+    
+    nav{
+        display: grid;
+        grid-template-columns: 22%;
+        margin-left: 55%;
+        
+
+        ul.primary-nav{
+            white-space: nowrap;
+           
+            text-align: right;
+            li{
+                
+                display: inline;
+                margin-left: 40%;
+            }
+            
+        }
+        li.current{
+            
+            font-weight: bold;
+            
+        }
+        li button{
+
+           background:var(--primary-color);
+           align-items: center;
+           padding: 17px 55px;
+           border-radius: 37px;  
+           color: #454548;
+           font-weight: 700;
+           font-size: 130%;
+           line-height: 29px;
+           cursor: pointer;
+           margin-top: -20%;
+           margin-left: 340%;
+
+        }
+    }
+}
+
+.form-popup{
+    display: none;
+    background:var(--primary-color);
+    color: #2C2C2E;
+    height: 100%;
+    width: 25%;
+    margin-top: -17%;
+    margin-left: 58%;
+    padding: 2%;
+    border-radius: 37px;
+
+    p{
+        opacity: 80%;
+    }
+
+    .info{
+        color: #2C2C2E;
+        font-size: 400;
+        margin-top: 6%;
+
+        .name, .pass{
+            opacity: 80%;
+            line-height: 3em;
+        }
+        
+        input[type=text], input[type=password]
+        {
+            width: 80%;
+            height: 40px;
+            background: #a8a7a3;
+            border:#DED4B4;
+            border-radius: 12px; 
+        }
+        
+
+    }
+    .btn{
+        background: #699BF7;
+        text-align: center;
+        padding: 10px 30px;
+        margin: 8% auto;
+        border: #699BF7;
+        border-radius: 37px;
+        cursor: pointer;
+        
+    }
+
+}
+
+.reg-form-popup{
+    display: none;
+    background:var(--primary-color);
+    color: #2C2C2E;
+    height: 100%;
+    width: 25%;
+    margin-top: -24%;
+    margin-left: 55%;
+    padding: 2%;
+    border-radius: 37px;
+
+    .btn{
+        background: #699BF7;
+        text-align: center;
+        padding: 10px 30px;
+        margin: 8% auto;
+        border: #699BF7;
+        border-radius: 37px;
+        cursor: pointer;
+        
+    }
+    p{
+        opacity: 80%;
+    }
+    
+    .reg-info{
+        color: #2C2C2E;
+        font-size: 400;
+        margin-top: 6%;
+
+        
+
+        .first-name, .last-name, .password, .confirm-password, .user-name, .college-name {
+            opacity: 80%;
+            line-height: 3em;
+        }
+        
+        
+        
+        input[type=text], input[type=password]
+        {
+            width: 80%;
+            height: 40px;
+            background: #a8a7a3;
+            border:#DED4B4;
+            border-radius: 12px; 
+            display: inline;
+
+        }
+        
+        
+
+    }
+}
+
+

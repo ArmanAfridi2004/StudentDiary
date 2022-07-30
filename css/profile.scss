@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #C8C4C3;
+}
+
+body{
+    background: #2C2C2E;
+    margin: 0;
+    font-family: 'Solway';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 0.1%, 1%;   
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 0.1%, 1%;   
+}
+.navbar{
+    padding: 5%;
+    
+    
+    .userName{
+        margin-left: 1.5em;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 15%;
+        margin-left: 65em;
+        
+        
+
+        ul.primary-nav{
+            white-space: nowrap;
+            text-align: right;
+            
+            li{
+                
+                display: inline;
+                margin-left: 5em;
+            }  
+        }
+    }
+}
+.left-profile-box{
+    
+    background: #C4C4C4;
+    color: #2C2C2E;
+    height: 66em;
+    width: 15em;
+    padding: 2%;
+    margin-left: 5em;
+    border-radius: 37px;
+    align-items: center;
+    
+    
+
+    .left-profile-box-item{
+        .about-me{
+            background: #494A51;
+            height: 100%;
+            width: 100%;
+            padding: 12px;
+            border-radius: 20px;
+            margin-left: -10px;
+            text-align: center;
+        }
+        .academic-result{
+            margin-top: 2em;
+            margin-left: -10px;
+            background: #494A51;
+            height: 100%;
+            width: 100%;
+            padding: 12px;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+        .exam-schedule{
+            margin-top: 2em;
+            margin-left: -10px;
+            background: #494A51;
+            height: 100%;
+            width: 100%;
+            padding: 12px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .plans{
+            margin-top: 2em;
+            margin-left: -10px;
+            background: #494A51;
+            height: 100%;
+            width: 100%;
+            padding: 12px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+    }
+    
+    
+}
+.right-profile-box{
+
+    background-color: #C4C4C4;
+    border-radius: 37px;
+    padding: 40px;
+    width: 75em;
+    margin-left: 32em;
+    margin-top: -70.7em;
+
+    .box-left{
+        .userImage{
+            height: 90px;
+        }
+        .username{
+            
+        }
+        background-color: #E0E0E0;
+        border-radius: 37px;
+        padding: 30px;
+        width: 25em;
+        height: 30em;
+        
+        
+        .dataField{
+
+            margin-left: 8.5em;
+            margin-top: -11.8em;
+            display: none;
+            
+            
+        }
+        
+    }
+    
+
+    .info{
+        margin-top: 20%;
+    }
+        
+    .intro{
+        margin-left: 6em;
+        margin-top: -5em;
+        font-size: large;
+        width: 60%;
+        padding: 12px;
+        border-radius: 20px;
+        background: #C4C4C4;
+    }
+    .userinfo-div{
+        .user-info{
+            margin-top: -11.9em;
+            margin-left: 10em;
+            .user-info-update{
+                margin-top: -16.2em;
+            }
+        }
+    }
+    .update-info{
+                
+        background: #699BF7;
+        width: 6em;
+        padding: 12px;
+        border-radius: 12px;
+        margin-left: 10em;
+        margin-top: 2em;
+        text-align: center;
+        cursor: pointer;
+
+    }
+    
+    
+}
+.box-right{
+    background: #E0E0E0;
+    border-radius: 37px;
+    padding: 30px;
+    width: 40em;
+    margin-left: 30em;
+    margin-top: -33.75em;
+    li{
+        margin-top: 1em;
+    }
+    .semesterScore{
+        margin-top: -19.9em;
+        margin-left: 12em;
+    }
+    .result{
+        background: #C4C4C4;
+        border-radius: 37px;
+        padding: 20px;
+        font-weight: bold;
+    }
+    .cgpa{
+        margin-left: 17em;
+        margin-top: -20em;
+        display: none;
+        .save-academic{
+            
+        }
+        .close-info-academic{
+            
+        }
+        
+        
+    }
+    p{
+        color: black;
+        font-weight: bold;
+    }
+    .update-result{
+        
+        background: #699BF7;
+        width: 7em;
+        padding: 12px;
+        border-radius: 12px;
+        margin-left: 17em;
+        margin-top: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+.exam-schedule{
+    background-color: #C4C4C4;
+    border-radius: 32px;
+    padding: 40px;
+    width: 75em;
+    margin-left: 32em;
+    margin-top: 4em;
+    p{
+        color: black;
+        font-weight: bold;
+    }
+    .innerExam{
+        background-color: #E0E0E0;
+        border-radius: 32px;
+        padding: 5em;
+        
+    }
+    .uploadExam{
+        background: #699BF7;
+        width: 8em;
+        padding: 12px;
+        border-radius: 12px;
+        text-align: center;
+        cursor: pointer; 
+    }
+}

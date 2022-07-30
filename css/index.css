@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap");
+:root {
+  --primary-color: #C8C4C3;
+}
+
+body {
+  background: #2C2C2E;
+  margin: 0;
+  font-family: 'Solway';
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 0.1%, 1%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 3% 9%;
+}
+
+.left-col {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.left-col h1 {
+  color: var(--primary-color);
+  letter-spacing: 0.2%;
+  font-size: 74px;
+  line-height: 2%;
+}
+
+.left-col p {
+  color: var(--primary-color);
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 120%;
+  padding-left: 0.5em;
+}
+
+.left-col .create {
+  margin-top: 7%;
+}
+
+.left-col .create .create-account {
+  background: #699BF7;
+  color: #FBFBFB;
+  padding: 1.4% 2.9%;
+  font-size: 150%;
+  font-weight: 800;
+  border-radius: 5em;
+  cursor: pointer;
+}
+
+.star-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  margin-top: -26%;
+  margin-left: 60%;
+}
+
+.navbar {
+  padding: 6% 16%;
+}
+
+.navbar nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 22%;
+      grid-template-columns: 22%;
+  margin-left: 55%;
+}
+
+.navbar nav ul.primary-nav {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.navbar nav ul.primary-nav li {
+  display: inline;
+  margin-left: 40%;
+}
+
+.navbar nav li.current {
+  font-weight: bold;
+}
+
+.navbar nav li button {
+  background: var(--primary-color);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 17px 55px;
+  border-radius: 37px;
+  color: #454548;
+  font-weight: 700;
+  font-size: 130%;
+  line-height: 29px;
+  cursor: pointer;
+  margin-top: -20%;
+  margin-left: 340%;
+}
+
+.form-popup {
+  display: none;
+  background: var(--primary-color);
+  color: #2C2C2E;
+  height: 100%;
+  width: 25%;
+  margin-top: -17%;
+  margin-left: 58%;
+  padding: 2%;
+  border-radius: 37px;
+}
+
+.form-popup p {
+  opacity: 80%;
+}
+
+.form-popup .info {
+  color: #2C2C2E;
+  font-size: 400;
+  margin-top: 6%;
+}
+
+.form-popup .info .name, .form-popup .info .pass {
+  opacity: 80%;
+  line-height: 3em;
+}
+
+.form-popup .info input[type=text], .form-popup .info input[type=password] {
+  width: 80%;
+  height: 40px;
+  background: #a8a7a3;
+  border: #DED4B4;
+  border-radius: 12px;
+}
+
+.form-popup .btn {
+  background: #699BF7;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 8% auto;
+  border: #699BF7;
+  border-radius: 37px;
+  cursor: pointer;
+}
+
+.reg-form-popup {
+  display: none;
+  background: var(--primary-color);
+  color: #2C2C2E;
+  height: 100%;
+  width: 25%;
+  margin-top: -24%;
+  margin-left: 55%;
+  padding: 2%;
+  border-radius: 37px;
+}
+
+.reg-form-popup .btn {
+  background: #699BF7;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 8% auto;
+  border: #699BF7;
+  border-radius: 37px;
+  cursor: pointer;
+}
+
+.reg-form-popup p {
+  opacity: 80%;
+}
+
+.reg-form-popup .reg-info {
+  color: #2C2C2E;
+  font-size: 400;
+  margin-top: 6%;
+}
+
+.reg-form-popup .reg-info .first-name, .reg-form-popup .reg-info .last-name, .reg-form-popup .reg-info .password, .reg-form-popup .reg-info .confirm-password, .reg-form-popup .reg-info .user-name, .reg-form-popup .reg-info .college-name {
+  opacity: 80%;
+  line-height: 3em;
+}
+
+.reg-form-popup .reg-info input[type=text], .reg-form-popup .reg-info input[type=password] {
+  width: 80%;
+  height: 40px;
+  background: #a8a7a3;
+  border: #DED4B4;
+  border-radius: 12px;
+  display: inline;
+}
+/*# sourceMappingURL=index.css.map */
